@@ -1,0 +1,35 @@
+{
+  "name": "coloring-app-backend",
+  "version": "1.0.0",
+  "description": "Production-ready backend for Color By Numbers App",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "vercel-build": "echo Building for Vercel"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "@google-cloud/vertexai": "^1.9.2",
+    "express-rate-limit": "^7.1.5",
+    "uuid": "^9.0.0",
+    "helmet": "^7.1.0",
+    "compression": "^1.7.4",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": [
+    "coloring",
+    "imagen",
+    "vertex-ai",
+    "express"
+  ],
+  "license": "MIT"
+}
